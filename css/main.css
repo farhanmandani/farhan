@@ -1,0 +1,187 @@
+html {
+	width: 100%;
+	overflow-x: hidden;
+	position: relative;
+	height: auto;
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	background-color: white;
+	-webkit-font-smoothing: antialiased;
+}
+
+.section {
+	color: #222222;
+	font-family: sans-serif;
+	letter-spacing: -0.02em;
+	line-height: 0.90em;
+	width: calc(100% - 170px);
+	padding: 80px 85px 0 85px;
+}
+
+/*  header  */
+
+.name {
+    font-family: 'Shadows Into Light Two', cursive;
+	color: #00bfff;
+}
+
+#menu {
+    
+    font-family: sans-serif !important;
+    font-size: .5em;
+    text-decoration: underline;
+    color: #00bfff;
+    margin-top: 50px;
+    display: block;
+    height: 1px;
+}
+
+#header {
+	font-size: 8em;
+	height: 170vh;
+	position: relative;
+}
+
+#header a:link {
+	font-family: 'Shadows Into Light Two', cursive;
+	color: #00bfff;
+}
+
+#header a {
+	color: #00bfff;
+	text-decoration: none;
+}
+
+#header a:hover {
+    color: #222222;
+}
+
+/*  about  */
+
+#about {
+	height: 160vh;
+	font-size: 3.2em;
+	background-color: #222222;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+.aboutTitle {
+    color: #00bfff !important;
+}
+
+#about a {
+    
+    font-family: sans-serif !important;
+    font-size: 3em;
+    text-decoration: none;
+    color: #00bfff;
+    margin-top: 50px;
+    display: block;
+    height: 1px;
+    text-align: center;
+    
+}
+
+
+#about a:hover {
+    color: white;
+}
+#about h1 {
+    
+    
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: -0.02em;
+	line-height: 0.90em;
+    padding-top: .5em;
+    
+}
+
+#about h2 {
+    color: white;
+    font-size: .80em;
+     
+}
+
+#me {
+    font-family: 'Shadows Into Light Two';
+    color: #00bfff;
+}
+
+/*  selected work  */
+
+#work {
+	height: 160vh;
+	font-size: 3.2em;
+	color: #222;
+	background-color: #f7f7f7;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+#work {
+    display: flex;
+}
+
+#work h2 {
+    font-size: .80em;
+}
+
+
+/*  contact  */
+
+#contact {
+	height: 30vh;
+	font-size: 3em;
+	display: flex;
+    background-color:#222222 !important;
+}
+
+.footerMenu {
+    margin: 0 auto;
+}
+
+.footerMenu ul {
+    text-align: center;
+    -webkit-padding-start: 0px;
+
+}
+
+.footerMenu ul li a:hover{
+    color: white !important;
+}
+
+.contact-title {
+    color: white;
+    margin-left: 20px;
+}
+
+#contact a {
+	font-family: sans-serif;
+	color: #00bfff;
+	text-decoration: none;
+}
+
+#contact a:hover {
+	color: white;
+}
+
+#social li {
+	display: inline-block;
+}
+
+
+.small {
+	display: none;
+}
+
