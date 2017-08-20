@@ -37,7 +37,7 @@ body {
 #menu {
     
     font-family: sans-serif !important;
-    font-size: .5em;
+    font-size: .8em;
     text-decoration: underline;
     color: #00bfff;
     margin-top: 50px;
@@ -148,6 +148,10 @@ body {
     display: block;
     height: 1px;
 
+}
+
+#exampleLink{
+    font-size: 1em !important;
 }
 
 #work a:hover {
