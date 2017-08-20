@@ -11,7 +11,11 @@ body {
 	padding: 0;
 	height: auto;
 	background-color: white;
+    font-size: 80%;
 	-webkit-font-smoothing: antialiased;
+
+
+
 }
 
 .section {
@@ -86,7 +90,7 @@ body {
     margin-top: 50px;
     display: block;
     height: 1px;
-    text-align: center;
+
     
 }
 
@@ -94,6 +98,7 @@ body {
 #about a:hover {
     color: white;
 }
+
 #about h1 {
     
     
@@ -118,6 +123,10 @@ body {
 
 /*  selected work  */
 
+.workTitle{
+    padding-top: .5em;
+}
+
 #work {
 	height: 160vh;
 	font-size: 3.2em;
@@ -125,12 +134,24 @@ body {
 	background-color: #f7f7f7;
 	display: flex;
 	flex-direction: column;
+     display: flex;
 
 }
 
 
-#work {
-    display: flex;
+#work a {
+    font-family: sans-serif !important;
+    font-size: 3em;
+    text-decoration: none;
+    color: #00bfff;
+    margin-top: 50px;
+    display: block;
+    height: 1px;
+
+}
+
+#work a:hover {
+    color: black;
 }
 
 #work h2 {
