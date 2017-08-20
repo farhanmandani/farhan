@@ -11,7 +11,7 @@ body {
 	padding: 0;
 	height: auto;
 	background-color: white;
-    font-size: 80%;
+    font-size: 70%;
 	-webkit-font-smoothing: antialiased;
 
 
@@ -171,6 +171,7 @@ body {
 	display: flex;
     background-color:#222222 !important;
 }
+
 
 .footerMenu {
     margin: 0 auto;
